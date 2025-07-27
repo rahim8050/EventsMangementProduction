@@ -1,0 +1,8 @@
+Update time zone, enhance user registration and authentication, and refine RSVP handling
+
+- Changed TIME_ZONE to 'Africa/Nairobi' in settings.py
+- Updated User model to include role choices in migrations
+- Enhanced UserSerializer to validate email and username uniqueness
+- Improved CustomAuthToken to return user info on login
+- Added date formatting to EventSerializer
+- Refactored RSVP handling to prevent duplicate RSVPs and enforce capacity limits
